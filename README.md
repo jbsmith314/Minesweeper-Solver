@@ -10,6 +10,6 @@ I'm working on getting the code to work for the medium and hard modes too. Here 
 
 https://github.com/jbsmith314/Minesweeper-Solver/assets/123589888/7d6a2830-2d48-4472-8532-c2332a9aa3fe
 
-It still fails in the case where there are no obvious flags to place or obvious safe squares to uncover. In that case, it guesses a square and then reanalyzes. I'm working on the slightly more complex logic right now so it can solve the more complicated situations too. Also, since the code only works on certain screens and easy mode, I'm currently working on the code being able to scan the screen to find the coordinates of the corners of minefield so it can use math for everything instead of preenered pixel coordinates that are specific to one monitor size and one difficulty mode.
+It still fails in the case where there are no obvious flags to place or obvious safe squares to uncover. In that case, it guesses a square and then reanalyzes. I'm working on the slightly more complex logic right now so it can solve the more complicated situations too. Also, since the code only works on certain screens and easy mode, I'm currently working on the code being able to scan the screen to find the coordinates of the corners of minefield so it can use math for everything instead of preentered pixel coordinates that are specific to one monitor size and one difficulty mode.
 
-The code is very messy and it's not organized in functions yet because there were some weird problems certain variables, but I'm also working on cleaning up and organizing the code.
+The code is very messy and it's not organized in functions yet because there were some weird problems with certain variables, but I'm also working on cleaning up and organizing the code.
