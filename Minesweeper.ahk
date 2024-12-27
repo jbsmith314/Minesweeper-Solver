@@ -129,7 +129,7 @@ dont_rescan := 0
 			;change all -2 neighbors to -1
 	;counter++
 
-Poopypants:
+NewLabel:
 done_something := 0
 new_clicks := []
 counter := 1
@@ -380,7 +380,7 @@ if (done_something == 1) {
 		Goto, Expanddd
 	}
 	;MsgBox, Reanalyzing
-	Goto, Poopypants
+	Goto, NewLabel
 }
 
 if (flag_counter == 10) {
